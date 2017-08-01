@@ -1,3 +1,45 @@
-body{
-  background-color: yellow;
+.navbar{
+  border: 1px solid red;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.container1{
+  border: 1px solid red;
+  margin: auto;
+  position: relative;
+  width: 80%;
+}
+
+.container2{
+  border: 1px solid red;
+  margin: auto;
+  position: relative;
+  width: 80%;
+}
+
+.container3{
+  border: 1px solid red;
+  margin: auto;
+  position: relative;
+  display: inline-block;
+  width: 48%;
+  line-height: 170%;
+}
+
+.container4{
+  border: 1px solid red;
+  margin: auto;
+  position: relative;
+  display: inline-block;
+  width: 48%;
+  line-height: 170%;
+  left: 3%;
+}
+
+.container5{
+  border: 1px solid red;
+  margin: auto;
+  position: relative;
 }
