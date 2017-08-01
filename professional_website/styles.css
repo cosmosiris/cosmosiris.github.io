@@ -1,26 +1,42 @@
 .navbar{
-  border: 1px solid red;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
   position: relative;
   width: 100%;
   display: block;
+  color: white;
 }
 
+body{
+  background-image: url(ales-krivec-217107.jpg);
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+}
+
+#profilepic{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
 .container1{
-  border: 1px solid red;
   margin: auto;
   position: relative;
   width: 80%;
+  font-family: 'Kalam', cursive;
+  border: 2px solid white;
 }
 
 .container2{
-  border: 1px solid red;
   margin: auto;
   position: relative;
   width: 80%;
 }
 
 .container3{
-  border: 1px solid red;
   margin: auto;
   position: relative;
   display: inline-block;
@@ -29,7 +45,6 @@
 }
 
 .container4{
-  border: 1px solid red;
   margin: auto;
   position: relative;
   display: inline-block;
@@ -39,7 +54,10 @@
 }
 
 .container5{
-  border: 1px solid red;
   margin: auto;
   position: relative;
+}
+
+p, h1, h2, h3{
+  text-align: center;
 }
