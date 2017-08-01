@@ -99,10 +99,20 @@ h2{
   background-color: rgba(193, 66, 66, 0.31);
 }
 
-#box2{
-  margin: auto;
+#nulpic{
   position: relative;
-  display: block;
+  display: inline-block;
+  border: 2px solid white;
+  height: auto;
+  width: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#box2{
+  margin-top: ;
+  position: relative;
+  display: inline-block;
   padding-top: 15px;
   width: 350px;
   height: 550px;
