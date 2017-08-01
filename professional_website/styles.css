@@ -1,12 +1,16 @@
 .navbar{
-  border-left: 0px;
+  border-left: 2px solid white;
   border-right: 0px;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-  position: relative;
+  border-top: 0px;
+  border-bottom: 0px;
+  position: fixed;
   width: 100%;
   display: block;
-  color: white;
+  font-color: white;
+}
+
+a:visited {
+  color: pink;
 }
 
 body{
@@ -14,6 +18,7 @@ body{
   background-size: cover;
   color: white;
   font-weight: bold;
+  padding: ;
 }
 
 #profilepic{
@@ -27,7 +32,7 @@ body{
   position: relative;
   width: 80%;
   font-family: 'Kalam', cursive;
-  border: 2px solid white;
+  padding: 30px;
 }
 
 .container2{
@@ -56,8 +61,20 @@ body{
 .container5{
   margin: auto;
   position: relative;
+  padding: 50px;
 }
 
 p, h1, h2, h3{
   text-align: center;
+}
+
+h1{
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  padding: 0;
+  margin: 0;
 }
