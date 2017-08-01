@@ -18,7 +18,7 @@ body{
 
 #profilepic{
   display: block;
-  margin: auto;
+  margin: 0 auto;
   max-width: 100%;
   max-height: 100%;
 }
