@@ -1,4 +1,4 @@
-.navbar{
+#navbar{
   border-left: 2px solid white;
   border-right: 0px;
   border-top: 0px;
@@ -146,4 +146,10 @@ footer{
   border: 2px solid white;
   height: auto;
   width: 400px;
+}
+
+@media screen and (max-width: 500px) {
+  a{
+    margin:
+  }
 }
