@@ -78,6 +78,13 @@ h2{
   margin: 0;
 }
 
+footer{
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-size: 12px;
+}
+
 ---Resume styling---
 
 #resumetitle{
