@@ -80,12 +80,6 @@ h2{
 
 ---Resume styling---
 
-#resumebody{
-  border: 2px solid white;
-  margin: 0 auto;
-  position: static;
-}
-
 #resumetitle{
   padding: 40px;
 }
@@ -97,55 +91,52 @@ h2{
 .container6{
   margin: auto;
   border: 2px solid white;
-  display: block;
+  width: 80%;
+  padding: 5%;
 }
 
 #box1{
-  position: relative;
-  display: inline-block;
+  max-width: 50%;
   width: 350px;
   height: 550px;
   border: 2px solid white;
   background-color: rgba(193, 66, 66, 0.31);
-  margin-left: 10%;
+  display: inline-block;
 }
 
 #student_letter{
-  position: relative;
-  display: inline-block;
-  border: 2px solid white;
   height: auto;
   width: 400px;
-  margin-top: 10%;
-  margin-bottom: 8%;
+  max-width: 50%;
 }
 
 #nulpic{
-  position: relative;
-  display: inline-block;
-  border: 2px solid white;
   height: auto;
   width: 400px;
-  margin-top: 10%;
-  margin-bottom: 8%;
+  max-width: 50%;
 }
 
 #box2{
-  position: relative;
-  display: inline-block;
+  max-width: 50%;
   width: 350px;
   height: 550px;
   border: 2px solid white;
   background-color: rgba(193, 66, 66, 0.31);
-  margin: auto;
+  display: inline-block;
 }
 
 #box3{
-  position: relative;
-  display: inline-block;
-  padding-top: 15px;
+  max-width: 50%;
   width: 350px;
   height: 550px;
   border: 2px solid white;
   background-color: rgba(193, 66, 66, 0.31);
+  display: inline-block;
+}
+
+#alliance_photo{
+  max-width: 50%;
+  border: 2px solid white;
+  height: auto;
+  width: 400px;
 }
