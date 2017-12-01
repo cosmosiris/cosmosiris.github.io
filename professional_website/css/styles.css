@@ -1,6 +1,6 @@
-a:visited {
+/*a:visited {
   color: rgba(129, 218, 245, 1);
-}
+}*/
 
 body{
   background: #3A1C71;  /* fallback for old browsers */
@@ -29,19 +29,12 @@ body{
   position: relative;
   width: 80%;
   color: white;
+  display: flex;
 }
 
-
-.container3, .container4{
-  margin: auto;
-  position: relative;
-  display: inline-block;
-  width: 48%;
-  line-height: 170%;
-  left: 3%;
-  padding: 10% 5%;
+.center{
+  text-align: center;
 }
-
 
 p, h1, h2, h3{
   text-align: center;
